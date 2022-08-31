@@ -1,0 +1,284 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(223, 233, 241);
+}
+
+.name-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(35, 43, 43);
+  width: 100%;
+  color: white;
+  padding-left: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin: 10px;
+  padding: 20px;
+  width: 60%;
+  background-color: rgb(219, 216, 216);
+  border: 1 solid black;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.title-input,
+.content-input {
+  width: 80% !important;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.post {
+  width: 61.5%;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  border: 1px solid rgb(136, 77, 77);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: rgb(231, 237, 241);
+}
+
+.title {
+  padding: 0%;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.content {
+  font-size: 25px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.update-btn {
+  text-align: center;
+  background-color: rgb(171, 224, 155);
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  border: none;
+}
+
+.delete-btn {
+  background-color: rgb(224, 155, 155);
+  color: black;
+  border: none;
+}
+
+.draft-btn {
+  background-color: rgb(225, 221, 111);
+  color: black;
+  border: none;
+}
+
+.draft,
+.logout,
+.common-btn {
+  width: 200px;
+  font-weight: bold;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.update-link {
+  text-decoration: none;
+  color: black;
+}
+
+.update-btn:hover {
+  background-color: rgb(55, 211, 3);
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: rgb(233, 50, 50);
+}
+
+.draft-btn:hover {
+  background-color: rgb(255, 255, 1);
+}
+
+.btn-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px !important;
+}
+
+.draft,
+.logout {
+  height: 40px !important;
+  width: 100px !important;
+  background-color: rgb(238, 237, 234);
+  border: none;
+}
+
+.draft:hover {
+  background-color: rgb(200, 63, 63);
+  color: rgb(255, 255, 255);
+}
+
+.nav-buttons {
+  margin-left: 10px;
+}
+
+.create-btn {
+  margin-right: 10px;
+  border-radius: 5px;
+  height: 50px;
+  width: 100px;
+  font-size: 1rem;
+}
+.create-btn:hover {
+  background-color: rgb(200, 63, 63);
+  color: rgb(255, 255, 255);
+}
+
+.empty-post {
+  text-align: center;
+  margin-top: 10% !important;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 2rem;
+  color: rgb(185, 60, 60);
+  font-weight: 500;
+}
+
+.logout-section {
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+.link {
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+}
+
+.text-detail {
+  text-align: right;
+}
+
+.comment {
+  font-size: 1.3rem;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border: 1 solid black;
+  border-radius: 5px;
+}
+
+.all-comment {
+  float: left !important;
+  color: brown;
+}
+
+.comment-link {
+  text-decoration: none;
+}
+
+.error-msg {
+  color: rgb(255, 0, 0);
+  text-align: left;
+}
+
+.create-btn {
+  margin-top: 10px;
+}
+
+.back-btn {
+  position: absolute;
+  left: 43%;
+  top: 50%;
+}
+
+.error-section {
+  display: flex !important;
+  width: 80%;
+  align-items: flex-start !important;
+  align-items: flex-start !important;
+  text-align: left !important ;
+}
+
+.posts-title {
+  width: 60%;
+  padding: 1%;
+  margin-left: 20%;
+  text-align: center;
+  color: red;
+}
+
+.pagination-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+
+.pagination > .active > a {
+  background-color: #47ccde;
+  border-color: #47ccde;
+  color: #fff;
+}
+
+.pagination > li > a {
+  border: 1px solid #47ccde;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #47ccde;
+  border-color: #47ccde;
+  outline: none;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  color: #47ccde;
+}
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: unset;
+}
